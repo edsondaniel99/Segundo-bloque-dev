@@ -13,6 +13,13 @@ body{
 
 }
 
+
+main{
+    /*Ajustar las tarjetas a varias lineas*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1{
     color:rgb(214, 125, 8);
 }
@@ -36,7 +43,8 @@ h1{
 
 .tarjeta:hover{
     background-color: bisque;
-    transform: scale(1.1);/*3*/
+    transform: scale(1.05);
+    transform: rotate(3deg);
 }
 
 .tarjeta .caja-contenedora{
